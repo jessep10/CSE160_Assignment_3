@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title> Asgn 3 </title>
+  </head>
+
+  <body onload="main()">
+
+    <canvas id="webgl" width="400" height="400">
+    Please use a browser that supports "canvas"
+    </canvas>
+    <strong>Cheap Cheap Island</strong>
+        <div>
+            <div id="outputDiv">Initial content</div>
+
+            <div style="display: flex; gap: 10px; justify-content: space-between;">
+                <div>
+                    <label class="slider_label" for="angle_slider">Angle</label>
+                    <input type="range" id="angle_slider" min="0" max="360" value="5" class="slider-input">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="src/lib/webgl-utils.js"></script>
+    <script src="src/lib/webgl-debug.js"></script>
+    <script src="src/lib/cuon-utils.js"></script>
+    <script src="src/lib/cuon-matrix.js"></script>
+    <script src ="src/Triangle.js"></script>
+    <script src ="src/Circle.js"></script>
+    <script src ="src/Star.js"></script>
+    <script src ="src/Point.js"></script>
+    <script src = "src/Cube.js"></script>
+    <script src ="src/asgn3.js"></script>
+    <script src  ="src/Camera.js"></script>
+  </body>
+</html>
